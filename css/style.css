@@ -4,4 +4,20 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.right-container {
+    flex: 2;
+    background-color: blanchedalmond;
+}
+
 /* Image used from Unsplash - Credit to Halie West https://unsplash.com/@haliewestphoto */
