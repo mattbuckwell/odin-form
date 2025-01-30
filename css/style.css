@@ -12,9 +12,14 @@ body {
 
 .left-container {
     flex: 1;
-    background-image: url(/images/bg-photo.avif);
+    /* background-image: url(/images/bg-photo.avif);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
+}
+
+.left-container img {
+    width: 100%;
+    height: 100%;
 }
 
 .right-container {
