@@ -21,10 +21,27 @@ body {
     position: relative;
     height: 100px;
     width: 100%;
-    background-color: darkgrey;
-    opacity: 0.6;
+    background-color: rgba(34, 34, 34, 0.6);
     z-index: 1;
     top: 25%;
+}
+
+.logo-name {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-name img {
+    height: 100%;
+    width: 100px;
+}
+
+.logo-name h2 {
+    color: #fff;
+    font-size: 3.2rem;
+    letter-spacing: 5px;
 }
 
 .right-container {
