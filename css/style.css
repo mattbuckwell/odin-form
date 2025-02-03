@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(/font/Norse-Bold.otf);
+}
+
 *,body {
     margin: 0;
     padding: 0;
@@ -36,8 +41,10 @@
 
 .logo-container h2 {
     color: #fff;
-    font-size: 3.2rem;
+    font-size: 5rem;
     letter-spacing: 5px;
+    font-family: "Norse-Bold";
+    padding-left: 5px;
 }
 
 .right-container {
