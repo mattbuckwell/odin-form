@@ -42,7 +42,25 @@ body {
 
 .right-container {
     flex: 2;
-    background-color: blanchedalmond;
+}
+
+.right-info,
+.right-form,
+.right-create {
+    width: 100%;
+    height: 33.33%;
+}
+
+.right-info {
+    background-color:blueviolet;
+}
+
+.right-form {
+    background-color: brown;
+}
+
+.right-create {
+    background-color: burlywood;
 }
 
 /* Image used from Unsplash - Credit to Halie West https://unsplash.com/@haliewestphoto */
