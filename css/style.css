@@ -77,8 +77,8 @@
 .info-text {
     font-weight: bold;
     font-size: 1.3rem;
-    width: 680px;
-    padding-left: 40px;
+    width: 660px;
+    margin-left: 40px;
 }
 
 .info-text:nth-child(1) {
@@ -87,6 +87,11 @@
 
 .right-form {
     background-color: #fff;
+}
+
+.btn,
+.login-text {
+    margin-left: 40px;
 }
 
 
