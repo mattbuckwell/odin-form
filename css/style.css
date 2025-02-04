@@ -63,11 +63,21 @@
     background-color: #E5E7EB;
 }
 
+.right-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .info-text {
     font-weight: bold;
     font-size: 1.3rem;
-    width: 50%;
+    width: 65%;
     padding-left: 30px;
+}
+
+.info-text:nth-child(1) {
+    margin-bottom: 20px;
 }
 
 .right-form {
