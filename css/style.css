@@ -15,6 +15,7 @@
     display: flex;
 }
 
+/* ----- LEFT SIDE ----- */
 .left-container {
     flex: 1;
     background-image: url(/images/bg-photo.avif);
@@ -36,7 +37,7 @@
 
 .logo-container img {
     height: 100%;
-    width: 100px;
+    width: 80px;
 }
 
 .logo-container h2 {
@@ -44,9 +45,10 @@
     font-size: 5rem;
     letter-spacing: 5px;
     font-family: "Norse-Bold";
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
+/* ----- RIGHT SIDE ----- */
 .right-container {
     flex: 2;
     display: flex;
@@ -74,7 +76,7 @@
 .info-text {
     font-weight: bold;
     font-size: 1.3rem;
-    width: 65%;
+    width: 600px;
     padding-left: 30px;
 }
 
