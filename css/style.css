@@ -118,4 +118,13 @@
     color: #596D48;
 }
 
+.right-form p,
+.form-container {
+    margin-left: 40px;
+}
+
+.form-container {
+    display: flex;
+}
+
 /* Image used from Unsplash - Credit to Halie West https://unsplash.com/@haliewestphoto */
