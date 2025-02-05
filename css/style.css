@@ -118,6 +118,12 @@
     color: #596D48;
 }
 
+.right-form p {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
 .right-form p,
 .form-container {
     margin-left: 40px;
