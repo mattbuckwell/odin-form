@@ -133,4 +133,16 @@
     display: flex;
 }
 
+.form-left {
+    flex: 1;
+}
+
+input {
+    display: block;
+}
+
+.form-right {
+    flex: 1;
+}
+
 /* Image used from Unsplash - Credit to Halie West https://unsplash.com/@haliewestphoto */
