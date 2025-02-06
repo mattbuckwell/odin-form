@@ -30,7 +30,7 @@
     width: 100%;
     background-color: rgba(34, 34, 34, 0.6);
     z-index: 1;
-    top: 166.65px;
+    top: 21%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@
 
 .login-text {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.rem;
 }
 
 .login-text a {
