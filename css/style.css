@@ -141,6 +141,12 @@ input {
     display: block;
 }
 
+label {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
 .form-right {
     flex: 1;
 }
