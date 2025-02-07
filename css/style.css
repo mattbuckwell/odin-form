@@ -1,8 +1,10 @@
+/* ----- Logo Font ----- */
 @font-face {
     font-family: "Norse-Bold";
     src: url(/font/Norse-Bold.otf);
 }
 
+/* ----- Main Styles ----- */
 *,body {
     margin: 0;
     padding: 0;
@@ -68,6 +70,7 @@
     background-color: #E5E7EB;
 }
 
+/* Welcome Text section */
 .right-info {
     display: flex;
     flex-direction: column;
@@ -85,37 +88,9 @@
     margin-bottom: 20px;
 }
 
+/* Form section */
 .right-form {
     background-color: #fff;
-}
-
-.btn,
-.login-text {
-    margin-left: 40px;
-}
-
-.btn {
-    background-color: #596D48;
-    color: #fff;
-    border: none;
-    padding: 15px 50px;
-    border-radius: 10px;
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    box-shadow: 5px 5px rgba(211, 211, 211, 0.5);
-}
-
-
-.login-text {
-    font-weight: bold;
-    font-size: 1.rem;
-}
-
-.login-text a {
-    text-decoration: none;
-    color: #596D48;
 }
 
 .right-form p {
@@ -166,6 +141,36 @@ input:focus {
     outline: none;
     border: 1px solid blue;
     box-shadow: 4px 4px 5px rgba(211, 211, 211, 0.4);
+}
+
+/* Create Account section */
+.btn,
+.login-text {
+    margin-left: 40px;
+}
+
+.btn {
+    background-color: #596D48;
+    color: #fff;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px rgba(211, 211, 211, 0.5);
+}
+
+
+.login-text {
+    font-weight: bold;
+    font-size: 1.rem;
+}
+
+.login-text a {
+    text-decoration: none;
+    color: #596D48;
 }
 
 /* Image used from Unsplash - Credit to Halie West https://unsplash.com/@haliewestphoto */
