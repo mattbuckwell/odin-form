@@ -131,6 +131,7 @@
 
 .form-container {
     display: flex;
+    width: 60%;
 }
 
 .form-left {
