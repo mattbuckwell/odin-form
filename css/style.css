@@ -39,12 +39,12 @@
     align-items: center;
 }
 
-.logo-container img {
+.logo-container .logo {
     height: 100%;
     width: 80px;
 }
 
-.logo-container h2 {
+.logo-container .company-name {
     color: #fff;
     font-size: 5rem;
     letter-spacing: 5px;
