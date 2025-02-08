@@ -5,6 +5,12 @@
 }
 
 /* ----- Main Styles ----- */
+:root {
+    --white: #fff;
+    --bg-color: #E5E7EB;
+    --btn-color: #596D48;
+}
+
 *,body {
     margin: 0;
     padding: 0;
@@ -45,7 +51,7 @@
 }
 
 .logo-container .company-name {
-    color: #fff;
+    color: var(--white);
     font-size: 5rem;
     letter-spacing: 5px;
     font-family: "Norse-Bold";
@@ -59,7 +65,7 @@
     flex-direction: column;
 }
 
-.right-info,
+.right-info,#fff
 .right-form,
 .right-create {
     width: 100%;
@@ -68,7 +74,7 @@
 
 .right-info,
 .right-create {
-    background-color: #E5E7EB;
+    background-color: var(--bg-color);
 }
 
 /* Welcome Text section */
@@ -91,7 +97,7 @@
 
 /* Form section */
 .right-form {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .right-form p {
@@ -116,7 +122,7 @@
 
 input {
     display: block;
-    border: 1px solid #E5E7EB;
+    border: 1px solid var(--bg-color);
     border-radius: 5px;
     height: 30px;
     width: 250px;
@@ -151,8 +157,8 @@ input:focus {
 }
 
 .btn {
-    background-color: #596D48;
-    color: #fff;
+    background-color: var(--btn-color);
+    color: var(--white);
     border: none;
     padding: 15px 50px;
     border-radius: 10px;
@@ -171,7 +177,7 @@ input:focus {
 
 .login-text a {
     text-decoration: none;
-    color: #596D48;
+    color: var(--btn-color);
 }
 
 /* Image used from Unsplash - Credit to Halie West https://unsplash.com/@haliewestphoto */
