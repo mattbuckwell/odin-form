@@ -143,8 +143,8 @@ label {
     flex: 1;
 }
 
-input[type="password"]:invalid {
-    border: 1px solid red;
+input:invalid {
+    border-color: red;
 }
 
 input:focus {
