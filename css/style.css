@@ -9,6 +9,8 @@
     --white: #fff;
     --bg-color: #E5E7EB;
     --btn-color: #596D48;
+    --logo-font: "Norse-Bold";
+    --text-margin: 40px;
 }
 
 *,body {
@@ -54,7 +56,7 @@
     color: var(--white);
     font-size: 5rem;
     letter-spacing: 5px;
-    font-family: "Norse-Bold";
+    font-family: var(--logo-font);
     padding-left: 10px;
 }
 
@@ -65,7 +67,7 @@
     flex-direction: column;
 }
 
-.right-info,#fff
+.right-info,
 .right-form,
 .right-create {
     width: 100%;
@@ -88,7 +90,7 @@
     font-weight: bold;
     font-size: 1.3rem;
     width: 660px;
-    margin-left: 40px;
+    margin-left: var(--text-margin);
 }
 
 .info-text:nth-child(1) {
@@ -108,7 +110,7 @@
 
 .right-form p,
 .form-container {
-    margin-left: 40px;
+    margin-left: var(--text-margin);
 }
 
 .form-container {
@@ -153,7 +155,7 @@ input:focus {
 /* Create Account section */
 .btn,
 .login-text {
-    margin-left: 40px;
+    margin-left: var(--text-margin);
 }
 
 .btn {
