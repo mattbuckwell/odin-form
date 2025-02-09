@@ -67,20 +67,20 @@
     flex-direction: column;
 }
 
-.right-info,
-.right-form,
-.right-create {
+.info,
+.form,
+.create {
     width: 100%;
     flex: 1;
 }
 
-.right-info,
-.right-create {
+.info,
+.create {
     background-color: var(--bg-color);
 }
 
 /* Welcome Text section */
-.right-info {
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,17 +98,17 @@
 }
 
 /* Form section */
-.right-form {
+.form {
     background-color: var(--white);
 }
 
-.right-form p {
+.form p {
     font-weight: bold;
     font-size: 1.3rem;
     margin: 20px 0;
 }
 
-.right-form p,
+.form p,
 .form-container {
     margin-left: var(--text-margin);
 }
@@ -154,7 +154,7 @@ input:focus {
 
 /* Create Account section */
 .btn,
-.login-text {
+.create-text {
     margin-left: var(--text-margin);
 }
 
@@ -172,12 +172,12 @@ input:focus {
 }
 
 
-.login-text {
+.create-text {
     font-weight: bold;
     font-size: 1.rem;
 }
 
-.login-text a {
+.create-text a {
     text-decoration: none;
     color: var(--btn-color);
 }
